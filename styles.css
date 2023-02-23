@@ -1,1 +1,71 @@
+body, html{
+ margin: 0;
+ height: 100%;
+}
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7{
+    position: relative;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-1{
+ background-image: url("https://cdn1.matadornetwork.com/blogs/1/2018/02/Taj-Mahal.jpg");
+ min-height: 100%;
+}
+.bg-2{
+ background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Christ-the-Redeemer-close-up.jpg");
+ min-height: 70%;
+}
+.bg-3{
+  background-image: url("https://cdn1.matadornetwork.com/blogs/1/2018/02/Petra-at-night.jpg");
+  min-height: 70%;
+}
+.bg-4{
+    background-image: url("https://cdn1.matadornetwork.com/blogs/1/2018/02/Great-Wall-of-China.jpg");
+    min-height: 70%;
+  }
+.bg-5{
+    background-image: url("https://cdn1.matadornetwork.com/blogs/1/2018/02/View-of-the-Colosseum.jpg");
+    min-height: 70%;
+  }
+.bg-6{
+    background-image: url("https://cdn1.matadornetwork.com/blogs/1/2018/02/Machu-Picchu-around-sunset.jpg");
+    min-height: 70%;
+  }
+.bg-7{
+    background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Chichen-Itza-at-night.jpg");
+    min-height: 100%;
+  }
 
+.content{
+    padding: 20px;
+    text-align: justify;
+    margin: 0;
+    background-color: whitesmoke;
+}  
+h3{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: serif ;
+    color: #333;
+}
+p{
+    color: #777;
+    font-size: 20px;
+}
+.textDiv{
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  color: white;
+  
+}
+.text{
+  font-size: 30px;
+}
